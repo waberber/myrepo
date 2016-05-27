@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014D25641CF87CC000FD2503 /* Persistencelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014D25631CF87CC000FD2503 /* Persistencelayer.framework */; };
 		01B522521CF03A2400AD94D0 /* BusinessLogicLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B522511CF03A2400AD94D0 /* BusinessLogicLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01B522941CF03C8A00AD94D0 /* NoteBLL.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B522921CF03C8A00AD94D0 /* NoteBLL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01B522951CF03C8A00AD94D0 /* NoteBLL.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B522931CF03C8A00AD94D0 /* NoteBLL.m */; };
-		01D4901F1CF4D7C7004BBC3F /* Persistencelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4901E1CF4D7C7004BBC3F /* Persistencelayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		014D25631CF87CC000FD2503 /* Persistencelayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Persistencelayer.framework; path = "../../../../../../Users/waber/Library/Developer/Xcode/DerivedData/MyNotesWorkspace-busifgyiwkikicglbtffkxquywlb/Build/Products/Debug-iphonesimulator/Persistencelayer.framework"; sourceTree = "<group>"; };
 		01B5224E1CF03A2400AD94D0 /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B522511CF03A2400AD94D0 /* BusinessLogicLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLogicLayer.h; sourceTree = "<group>"; };
 		01B522531CF03A2400AD94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01B522921CF03C8A00AD94D0 /* NoteBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBLL.h; sourceTree = "<group>"; };
 		01B522931CF03C8A00AD94D0 /* NoteBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBLL.m; sourceTree = "<group>"; };
-		01D4901E1CF4D7C7004BBC3F /* Persistencelayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Persistencelayer.framework; path = "../../../Library/Developer/Xcode/DerivedData/MyNotesWorkspace-ghoibbwgfyslhpfnprrcszhrbimz/Build/Products/Debug-iphoneos/Persistencelayer.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D4901F1CF4D7C7004BBC3F /* Persistencelayer.framework in Frameworks */,
+				014D25641CF87CC000FD2503 /* Persistencelayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 		01B522441CF03A2400AD94D0 = {
 			isa = PBXGroup;
 			children = (
-				01D4901E1CF4D7C7004BBC3F /* Persistencelayer.framework */,
+				014D25631CF87CC000FD2503 /* Persistencelayer.framework */,
 				01B522501CF03A2400AD94D0 /* BusinessLogicLayer */,
 				01B5224F1CF03A2400AD94D0 /* Products */,
 			);
